@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const connectMongoDB = async () => {
     try {
         await mongoose.connect(
-            "mongodb+srv://ppqita:santri@ppqitadb.9ybiiar.mongodb.net/Development", // Sesuaikan dengan nama database yang ada di MongoDB
+            "mongodb+srv://ppqita:santri@ppqitadb.9ybiiar.mongodb.net", // Sesuaikan dengan nama database yang ada di MongoDB
             {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
